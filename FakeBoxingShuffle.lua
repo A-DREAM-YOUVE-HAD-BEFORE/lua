@@ -1,5 +1,4 @@
--- keycodes: create.roblox.com/docs/reference/engine/enums/KeyCode
-local KEYCODE = Enum.KeyCode.Tab
+local KEYCODE = getgenv().KEY_NAME
 
 local UserInputService = cloneref(game:GetService([[UserInputService]]))
 local LcPlayer = cloneref(game:FindService([[Players]]).LocalPlayer)
@@ -17,7 +16,7 @@ end)()
 assert(p_BoxingShuffle, "UNKNOWN_FUNCTION");
 
 UserInputService.InputBegan:Connect(function(Input, _p)
-    if not _p and Input.KeyCode == KEYCODE and LcPlayer.Character then
+    if not _p and Input.KeyCode.Name == KEYCODE and LcPlayer.Character then
         p_BoxingShuffle({
             Windup_Speed = 0.8,
             Windup_Duration = 0.4,
