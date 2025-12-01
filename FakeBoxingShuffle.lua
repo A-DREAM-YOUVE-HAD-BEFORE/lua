@@ -2,9 +2,6 @@ local KEYCODE = getgenv().KEY_NAME
 
 local UserInputService = cloneref(game:GetService([[UserInputService]]))
 local LcPlayer = cloneref(game:FindService([[Players]]).LocalPlayer)
-loadstring(game:HttpGet([[
-        https://raw.githubusercontent.com/A-DREAM-YOUVE-HAD-BEFORE/N-O-I-C-E/refs/heads/main/YbaAntiCheatBypass.lua
-        ]]))()
 
 local p_BoxingShuffle = (function()
     for _, v in next, getgc(true) do
